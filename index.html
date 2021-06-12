@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <title>coding geeks!</title>
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <!-- 
+
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div> -->
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>Coding Geeks</strong> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Topics
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Web development</a></li>
+              <li><a class="dropdown-item" href="#">Android development </a></li>
+              <li><a class="dropdown-item" href="#">Competative programming</a></li>
+              <li><a class="dropdown-item" href="#">Ethical hacking</a></li>
+              <li><a class="dropdown-item" href="#">Machine learning</a></li>
+              <li><a class="dropdown-item" href="#">Artificial intelligence</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <!-- <button id="bb"type="button" class="btn btn-danger" >Danger</button> -->
+            <a class="nav-link" href="/contact.html">sign up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/feedback.html">Feedback</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="b" class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1400x500/?programming,coding" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b style="color:red">WE ARE CODER</b></h5>
+          <p style="color:red">WE ARE MAKING WORLD EASY</p>
+
+          <button type="button" class="btn btn-primary">programming</button>
+          <button type="button" class="btn btn-secondary">development</button>
+          <button type="button" class="btn btn-success">jobs</button>
+
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1400x500/?coding" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b style="color:red">WE ARE LEARNER</b></h5>
+          <p style="color:red">WE ARE CREATING TECHNOLOGY</p>
+          <button type="button" class="btn btn-primary">python</button>
+          <button type="button" class="btn btn-secondary">data science</button>
+          <button type="button" class="btn btn-success">marketing</button>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1400x500/?programming" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b style="color:red">WE ARE CREATIVE</b></h5>
+          <p style="color:red">WE ARE MAKING CREATIVE WORLD</p>
+          <button type="button" class="btn btn-primary">machine learning</button>
+          <button type="button" class="btn btn-secondary">ethical hacking</button>
+          <button type="button" class="btn btn-success">internships</button>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- this for big box  -->
+  <div class="container1 my-2">
+    <div class="p-4 p-md-5 mb-3 text-white rounded bg-info">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic"><B style="color:red;">WELCOME<br> CODING GEEKS</B> </h1>
+        <p class="lead my-3">i am here presenting a simple plateform for all geeks in order to enhance the skills
+          in the area for your interest. i am glad to see you ..
+        </p>
+        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- this for boxes -->
+  <div class="container2 my-2">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="d-inline-block mb-2 text-success">COMPETATIVE PROGRAMMING</h3>
+
+            <div class="mb-1 text-muted">last updeted 2 hours ago</div>
+            <p class="card-text mb-auto">Here i have attached a complete couse on data structure and algo. with <b
+                style="color: crimson;">lectures and notes</b> lectures and notes
+              if you have any query regarding this site free feel to mail me at (amitkumarrathaur9336@gmail.com)
+            </p>
+
+
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/drive/u/0/folders/1szZmcER2CjAFbcqCLitTn_4nyv0wxUjn?sort=13&direction=a"><b>CLICK
+                HERE FOR LECTURES</b></a>
+
+            <a class="nav-link active" aria-current="page" href="https://www.cs.bham.ac.uk/~jxb/DSA/dsa.pdf"><b>CLICK
+                HERE FOR BOOK</b></a>
+
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em">Thumbnail</text>
+          </svg> -->
+            <img class="bd-placeholder-img" width=200 height=250
+              src="https://source.unsplash.com/300x300/?programming,coding,html,css">
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="d-inline-block mb-2 text-success">ETHICAL HACKING</h3>
+
+            <div class="mb-1 text-muted">last updated recently </div>
+            <p class="mb-auto"> Here i have attached a complete couse on ethical hacking with <b
+                style="color: crimson;">lectures and notes</b> lectures and notes
+              if you have any query regarding this site free feel to mail me at (amitkumarrathaur9336@gmail.com)
+              <h style="color: red;">SOME LECTURE ARE PROTECTED BY POSSWORD , I WILL POST THE PASSWORD SOON</h>
+            </p>
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/drive/u/0/mobile/folders/1c9s4_Ecu-8LKwU8TU9kSPW2eX4ghNkmq"><b>CLICK HERE
+                FOR LECTURES</b></a>
+            <a class="nav-link active" aria-current="page"
+              href="https://techcoder.medium.com/best-recommended-books-for-learning-ethical-hacking-6900c97edbd2"><b>CLICK
+                HERE FOR BOOK</b></a>
+
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/300x300/?programming,java,css,coding">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- this for boxes -->
+  <div class="container2 my-2">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="d-inline-block mb-2 text-success">WEB DEVELOPMENT</h3>
+
+            <div class="mb-1 text-muted">last updated 4 day ago</div>
+            <p class="card-text mb-auto">Here i have attached a complete couse on web development with <b
+                style="color: crimson;">lectures and notes</b> lectures and notes
+              if you have any query regarding this site free feel to mail me at (amitkumarrathaur9336@gmail.com)</p>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/folderview?id=17545tR4FDmpQJuUm0kRSglwnuTykxv3v"><b>CLICK HERE FOR
+                LECTURES</b></a>
+            <a class="nav-link active" aria-current="page" href="https://www.computer-pdf.com/web-programming/"><b>CLICK
+                HERE FOR BOOK</b></a>
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/folderview?id=1a3fyJ-0xIsbjXs6PEWO6JL-DU4Sd0Cb6"><b>CLICK HERE FOR WEB APP
+                DEVELOPMENT</b></a>
+                <a class="nav-link active" aria-current="page" href="https://youtu.be/9FD2ugeS4OU"><b>CLICK HERE FOR BLOG DEVELOPMENT</b></a>
+                <a class="nav-link active" aria-current="page" href="https://youtu.be/tcskp-ncN0I"><b>CLICK HERE FOR PERSONAL WEBSITE</b></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg> -->
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/300x300/?programming,php,coding,html,css">
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="d-inline-block mb-2 text-success">MACHINE LEARNING</h3>
+
+            <div class="mb-1 text-muted">last updated 1 day ago</div>
+            <p class="mb-auto">Here i have attached a complete couse on machine learning with <b
+                style="color: crimson;">lectures, notes,projects</b> lectures and notes
+              if you have any query regarding this site free feel to mail me at (amitkumarrathaur9336@gmail.com)</p>
+            </p>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/drive/folders/1PPorQBXOnwqn8NXfBiyuBly5dBatHE1v?usp=sharing"><b>CLICK HERE FOR
+                LECTURES</b></a>
+            <a class="nav-link active" aria-current="page"
+              href="https://youtu.be/iIkJrwVUl1c"><b>CLICK HERE FOR ML PROJECTS</b></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/300x300/?programming,c++,coding">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- this for boxes -->
+  <div class="container2 my-2">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="d-inline-block mb-2 text-success">ANDROID DEVELOPMENT</h3>
+            
+            <div class="mb-1 text-muted">last updated 2 hours ago</div>
+            <p class="card-text mb-auto">Here i have attached a complete couse on android development with <b
+              style="color: crimson;">lectures,notes,project</b> lectures and notes
+            if you have any query regarding this site free feel to mail me at (amitkumarrathaur9336@gmail.com)</p>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/drive/folders/1PPorQBXOnwqn8NXfBiyuBly5dBatHE1v?usp=sharing"><b>CLICK
+                HERE FOR LECTURES</b></a>
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/drive/folders/1PPorQBXOnwqn8NXfBiyuBly5dBatHE1v?usp=sharing"><b>CLICK
+                HERE FOR PROJECTS</b></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg> -->
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/300x300/?programming,css,coding,html,css">
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="d-inline-block mb-2 text-success">ARTIFICIAL INTELIGENCE</h3>
+            <h3 class="mb-0">Post title</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.
+            </p>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/drive/u/0/mobile/folders/1c9s4_Ecu-8LKwU8TU9kSPW2eX4ghNkmq"><b>CLICK HERE
+                FOR LECTURES</b></a>
+            <a class="nav-link active" aria-current="page"
+              href="https://techcoder.medium.com/best-recommended-books-for-learning-ethical-hacking-6900c97edbd2"><b>CLICK
+                HERE FOR BOOK</b></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/300x300/?programming,javascript,coding">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- this for boxes -->
+  <div class="container2 my-2">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="d-inline-block mb-2 text-success">DIGITAL MARcKETING</h3>
+            <div class="mb-1 text-muted">last updated 1 month ago</div>
+            <p class="card-text mb-auto">yeah this section is too much helpful for those geeks whose interest in marketing , enjoy learning new skills</p>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/drive/u/0/folders/1zkrv_22ByIGcAsnTor1jOmW1cucgA3vg"><b>FULL COURSE ON
+                 DIGITAL MARKETING </b></a>
+            <a class="nav-link active" aria-current="page"
+              href="https://drive.google.com/drive/folders/1PPorQBXOnwqn8NXfBiyuBly5dBatHE1v?usp=sharing"><b>CLICK
+                HERE</b></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+          
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/300x300/?programming,css,html,coding,html,css">
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="d-inline-block mb-2 text-success">C/C++/PYTHON/JAVA</h3>
+
+            <div class="mb-1 text-muted">updeted 2 hours ago</div>
+            <p class="mb-auto"> Here i have attached playlist of programming languages(c,c++,java,python)
+              if you have any query regarding this site free feel mail me at (amitkumarrathaur9336@gmail.com)
+            </p>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://youtube.com/playlist?list=PL9Z3bt4d5vJ8RK96kJUdGPMh31SviONu1"><b>CLICK HERE FOR C</b></a>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"><b>CLICK HERE FOR C++</b></a>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://youtube.com/playlist?list=PLwgFb6VsUj_lQTpQKDtLXKXElQychT_2j"><b>CLICK HERE FOR
+                PYTHON</b></a>
+
+            <a class="nav-link active" aria-current="page"
+              href="https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q"><b>CLICK HERE FOR JAVA</b></a>
+
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/300x300/?programming,css,javascript,coding">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="card text-center">
+    <div class="card-header">
+      statement
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">you are safe</h5>
+      <p class="card-text">all rights reserve<br> @amit kumar(iit bhu)</p>
+
+    </div>
+    <div class="card-footer text-muted">
+      last updated 3 hours ago
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="/jquery-3.6.0.min.js"></script>
+  <script>
+    $('#bb').click(<a href="/contact.html"></a>)
+
+  </script>
+
+
+</body>
+
+
+</html>
